@@ -5,8 +5,8 @@ public class Datasource {
 
 	}
 
-	public void read(String key) {
-
+	public Record<?> read(String key) {
+		return null;
 	}
 
 	public void write(String key, Record<?> record) {
